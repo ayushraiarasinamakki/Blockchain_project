@@ -1,0 +1,27 @@
+.btn-verification {
+  padding: 12px 20px; /* Added padding for a more comfortable click area */
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  float: inline-end;
+  background: linear-gradient(145deg, #4CAF50, #388E3C); /* Gradient background for a fresh look */
+  color: white; /* White text color for contrast */
+  font-size: 16px; /* Adjusted font size for readability */
+  font-weight: bold; /* Bold text for emphasis */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.btn-verification:hover {
+  background: linear-gradient(145deg, #388E3C, #4CAF50); /* Reverse gradient on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.btn-verification:disabled {
+  background: #B0BEC5; /* Light grey background when disabled */
+  cursor: not-allowed; /* Change cursor when disabled */
+  box-shadow: none; /* Remove shadow when disabled */
+}

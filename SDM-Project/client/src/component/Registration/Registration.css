@@ -1,0 +1,82 @@
+.div-li {
+  display: inline-grid;
+  gap: 1em;
+  color:white;
+}
+
+.input-r {
+  margin: 0.5em 0;
+  padding: 1em;
+  display: block;
+  overflow: auto;
+  border: 2px solid #00509e;
+  border-radius: 8px;
+  background-color: #f0f8ff;
+  font-size: 1rem;
+  color: #333;
+}
+
+.input-r:focus {
+  outline: none;
+  border-color: #ff6600;
+  box-shadow: 0 0 8px rgba(255, 102, 0, 0.7);
+}
+
+.label-r {
+  margin: 0.2em 0;
+  padding: 0.5em;
+  display: block;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #00509e;
+}
+
+.btn-add {
+  width: 50%;
+  padding: 1em;
+  margin: 1em auto;
+  background-color: #00c714;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-add:hover {
+  background-color: #e55b00;
+  box-shadow: 0px 4px 8px rgba(229, 91, 0, 0.5);
+  transform: translateY(-3px);
+}
+
+.note {
+  width: 90%;
+  padding: 12px;
+  padding-left: 1px;
+  text-align: justify;
+  max-height: 111px;
+  overflow: auto;
+  line-height: 1.6em;
+  background-color: #f9f9f9;
+  border-left: 4px solid #00509e;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.note::-webkit-scrollbar {
+  width: 8px;
+}
+
+.note::-webkit-scrollbar-thumb {
+  background-color: #00509e;
+  border-radius: 4px;
+}
+
+.note::-webkit-scrollbar-thumb:hover {
+  background-color: #ff6600;
+}

@@ -1,0 +1,131 @@
+/* Header Styling */
+h2, h3 {
+  padding: 15px 10px;
+  margin: 15px 0;
+  text-align: left;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+small {
+  color: grey;
+  font-size: 14px;
+}
+
+/* Paragraph Styling */
+p {
+  margin: 8px 0;
+  padding: 5px;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+.contact {
+  color: #888;
+}
+
+/* Slogan Styling */
+.slogan {
+  color: #fb6a03;
+  font-size: 1.6em;
+  font-weight: 600;
+  margin: 12px 0;
+}
+
+/* Description Styling */
+.discription {
+  padding: 12px;
+  padding-left: 10px;
+  text-align: justify;
+  max-height: 120px;
+  overflow: auto;
+  line-height: 1.6em;
+  font-size: 14px;
+  color: #444;
+}
+
+/* Candidate Info Styling */
+.candidate-info {
+  transition: ease all 0.5s;
+  width: 91%;
+  margin-left: 2%;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.vote-btn-container {
+  transition: ease all 0.5s;
+  height: auto;
+  width: 24%;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin-left: 25px;
+}
+
+.vote-bth {
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.vote-bth:hover {
+  background-color: #45a049;
+}
+
+.vote-bth:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Responsive Design */
+@media all and (max-width: 900px) {
+  .candidate-info,
+  .vote-btn-container {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    padding: 15px;
+  }
+
+  .vote-btn-container {
+    margin-top: 15px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  h2, h3 {
+    font-size: 18px;
+    color: white;
+  }
+
+  .slogan {
+    font-size: 1.4em;
+  }
+
+  .discription {
+    max-height: 130px;
+    font-size: 13px;
+  }
+
+  .vote-bth {
+    font-size: 16px;
+    height: 45px;
+  }
+}

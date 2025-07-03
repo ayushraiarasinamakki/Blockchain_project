@@ -1,0 +1,3 @@
+.header img {
+    mix-blend-mode: multiply; /* Removes white background */
+  }
